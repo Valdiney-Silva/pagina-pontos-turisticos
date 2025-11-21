@@ -12,12 +12,15 @@ h3 {
   color: #e1624f;
   font-size: 28px;
   font-weight: bold;
-  padding-top: 44px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
 img {
   border-radius: 28px;
 }
-main img{
+main img {
   width: 800px;
 }
 #subtitle {
@@ -28,17 +31,54 @@ main img{
 }
 #page {
   width: 800px;
-  margin: 88px auto;
+  margin: 88px auto 48px;
 }
-#title h3{
-padding-bottom: 0px;
+#title h3 {
+  padding-top: 44px;
 }
-#title p{
+#title p {
   font-size: 16px;
   font-weight: normal;
 }
-#titleList{
+#titleList {
   margin-top: 64px;
   margin-bottom: 64px;
   text-align: justify;
+}
+#cardTravel {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: normal;
+}
+#cardTravel ul #historia {
+  padding-bottom: 48px;
+  color: #0c51a7;
+  font-weight: bold;
+}
+#cardTravel ul #family {
+  color: #e5245e;
+  font-weight: bold;
+}
+#cardTravel ul #casais {
+  color: #591b98;
+  font-weight: bold;
+}
+#cardTravel ul #orcamento {
+  padding-bottom: 48px;
+  color: #e95e10;
+  font-weight: bold;
+}
+footer p {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+#footer {
+  margin-top: 58px;
+  margin-bottom: 48px;
+}
+span {
+  display: block;
+  margin-bottom: -20px;
+  font-weight: bold;
 }
